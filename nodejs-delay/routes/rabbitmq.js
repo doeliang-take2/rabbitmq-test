@@ -46,8 +46,8 @@ module.exports = {
         const msg2 = 'hello world2';
         console.log('producer msg：', msg);
         await ch.sendToQueue(queueResult.queue, new Buffer(msg), {
-            // expiration: '7200000'
-            expiration: '10000'
+            expiration: '7200000'
+            //expiration: '10000'
         });
         // await ch.sendToQueue(queueResult.queue, new Buffer(msg1), {
         //     expiration: '10000'
