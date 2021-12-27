@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81f786ab-098d-4b1c-bff9-f1546a204cd0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-order" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-order" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-rabbitmq-delay-queue" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-rabbitmq-delay-queue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="22kBKSxEzxELWsrEC0OJ3SGevwj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liang\springboot-rabbitmq_delya-queue\nodejs-delay\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liang\springboot-rabbitmq_delya-queue\nodejs-delay\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.bin\www">
+    <configuration name="consumer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/consumer.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/index.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="publish-split.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/publish-split.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="publisher.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/publisher.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <configuration name="rabbitmq.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/rabbitmq.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.publish-split.js" />
+        <item itemvalue="Node.js.rabbitmq.js" />
+        <item itemvalue="Node.js.consumer.js" />
+        <item itemvalue="Node.js.publisher.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81f786ab-098d-4b1c-bff9-f1546a204cd0" name="Default Changelist" comment="" />
+      <created>1640371640567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640371640567</updated>
+      <workItem from="1640371660081" duration="59565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="916" y="249" key="FileChooserDialogImpl" timestamp="1640528613307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="916" y="249" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1640528613307" />
+    <state width="1899" height="317" key="GridCell.Tab.0.bottom" timestamp="1640581429324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040/4.-1440.2560.1400@0.0.1920.1040" timestamp="1640581429324" />
+    <state width="1368" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640523202716" />
+    <state width="1899" height="317" key="GridCell.Tab.0.center" timestamp="1640581429324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="317" key="GridCell.Tab.0.center/0.0.1920.1040/4.-1440.2560.1400@0.0.1920.1040" timestamp="1640581429324" />
+    <state width="1368" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640523202716" />
+    <state width="1899" height="317" key="GridCell.Tab.0.left" timestamp="1640581429324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="317" key="GridCell.Tab.0.left/0.0.1920.1040/4.-1440.2560.1400@0.0.1920.1040" timestamp="1640581429324" />
+    <state width="1368" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640523202716" />
+    <state width="1899" height="317" key="GridCell.Tab.0.right" timestamp="1640581429324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="317" key="GridCell.Tab.0.right/0.0.1920.1040/4.-1440.2560.1400@0.0.1920.1040" timestamp="1640581429324" />
+    <state width="1368" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640523202716" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1640542226194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/4.-1440.2560.1400@0.0.1920.1040" timestamp="1640542226194" />
+  </component>
+</project>

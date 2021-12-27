@@ -1,0 +1,527 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Classico - cart page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+   <!-- CSS
+    ========================= -->
+    <!--bootstrap min css-->
+    <link rel="stylesheet" href="http://cdn.sucai8.cn/cdn/jquery/bootstrap-4.2.1.css">
+    <!--owl carousel min css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!--slick min css-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!--magnific popup min css-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--font awesome css-->
+    <link rel="stylesheet" href="http://cdn.sucai8.cn/cdn/jquery/font-awesome.4.7.0.css">
+    <!--ionicons css-->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <!--7 stroke icons css-->
+    <link rel="stylesheet" href="assets/css/pe-icon-7-stroke.css">
+    <!--animate css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--jquery ui min css-->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <!--plugins css-->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--modernizr min js here-->
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shopping</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Order</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="orderlist.html">Orderlist</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+     <!--header area start-->
+
+    <!--offcanvas menu area start-->
+    <div class="off_canvars_overlay">
+
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
+                        </div>
+                        <div class="header_search_box">
+                            <form action="#">
+                                <input placeholder="Search" type="text">
+                                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+                            </form>
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="#">Home</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="index-2.html">Home 2</a></li>
+                                        <li><a href="index-3.html">Home 3</a></li>
+                                        <li><a href="index-4.html">Home 4</a></li>
+                                        <li><a href="index-5.html">Home 5</a></li>
+                                        <li><a href="index-6.html">Home 6</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Shop</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Shop Layouts</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="shop.html">shop</a></li>
+                                                <li><a href="shop-fullwidth.html">Full Width</a></li>
+                                                <li><a href="shop-fullwidth-list.html">Full Width list</a></li>
+                                                <li><a href="shop-right-sidebar.html">Right Sidebar </a></li>
+                                                <li><a href="shop-right-sidebar-list.html"> Right Sidebar list</a></li>
+                                                <li><a href="shop-list.html">List View</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">other Pages</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="index.html">cart</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="my-account.html">my account</a></li>
+                                                <li><a href="404.html">Error 404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Product Types</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="product-details.html">product details</a></li>
+                                                <li><a href="product-sidebar.html">product sidebar</a></li>
+                                                <li><a href="product-grouped.html">product grouped</a></li>
+                                                <li><a href="variable-product.html">product variable</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">blog</a></li>
+                                        <li><a href="blog-details.html">blog details</a></li>
+                                        <li><a href="blog-fullwidth.html">blog fullwidth</a></li>
+                                        <li><a href="blog-sidebar.html">blog sidebar</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">pages </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">services</a></li>
+                                        <li><a href="faq.html">Frequently Questions</a></li>
+                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="login.html">login</a></li>
+                                        <li><a href="404.html">Error 404</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="my-account.html">my account</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="about.html">about Us</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="contact.html"> Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas_footer">
+                            <span><a href="#"><i class="fa fa-envelope-o"></i> info@yourdomain.com</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--offcanvas menu area end-->
+
+    <header>
+
+
+    <!--breadcrumbs area start-->
+    <div class="breadcrumbs_area  breadcrumbs_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb_content">
+<!--                        <ul>-->
+<!--                            <li><a href="index.html">home</a></li>-->
+<!--                            <li>cart</li>-->
+<!--                        </ul>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumbs area end-->
+
+    <!--shopping cart area start -->
+    <div class="shopping_cart_area">
+        <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table_desc">
+                            <div class="cart_page table-responsive">
+                                <table>
+                            <thead>
+                                <tr>
+                                    <th class="product_thumb">Image</th>
+                                    <th class="product_name">Product</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product_quantity">Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a></td>
+                                    <td class="product_name"><a href="#">Handbag fringilla</a></td>
+                                    <td class="product-price">£65.00</td>
+                                    <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>
+
+
+                                </tr>
+
+                                <tr>
+                                    <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a></td>
+                                    <td class="product_name"><a href="#">Handbags justo</a></td>
+                                    <td class="product-price">£90.00</td>
+                                    <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>
+
+
+                                </tr>
+                                <tr>
+                                    <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product3.jpg" alt=""></a></td>
+                                    <td class="product_name"><a href="#">Handbag elit</a></td>
+                                    <td class="product-price">£80.00</td>
+                                    <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>
+
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                            </div>
+                            <div class="cart_submit">
+                                <button class="submit_order" type="submit" onclick="submitorder()" >Submit Order</button>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+
+        </div>
+    </div>
+    <!--shopping cart area end -->
+
+    <!--footer area start-->
+    <footer class="footer_widgets">
+<!--        <div class="footer_top">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="footer_list">-->
+<!--                            <div class="footer_list_title">-->
+<!--                                <h3>about us</h3>-->
+<!--                            </div>-->
+<!--                            <div class="footer_logo">-->
+<!--                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>-->
+<!--                            </div>-->
+<!--                            <div class="footer_desc">-->
+<!--                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitse do eiusmod tempor incididunt ut labore et dolore.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>   -->
+<!--                        -->
+<!--                    <div class="col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="footer_list">-->
+<!--                            <div class="footer_list_title">-->
+<!--                                <h3>THEME FEATURES</h3>-->
+<!--                            </div>-->
+<!--                            <div class="footer_list_menu">-->
+<!--                                <ul>-->
+<!--                                    <li><a href="#">theme features</a></li>-->
+<!--                                    <li><a href="#">Our Other Projects</a></li>-->
+<!--                                    <li><a href="#">Typography</a></li>-->
+<!--                                    <li><a href="#">One Click To Join Us</a></li>-->
+<!--                                    <li><a href="#">Follow Us On Twitter</a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>  -->
+<!--                    <div class="col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="footer_list">-->
+<!--                            <div class="footer_list_title">-->
+<!--                                <h3>KEY FEATURES</h3>-->
+<!--                            </div>-->
+<!--                            <div class="footer_contact">-->
+<!--                               <div class="footer_contact_list">-->
+<!--                                   <div class="footer_contact_icon">-->
+<!--                                       <span>1</span>-->
+<!--                                   </div>-->
+<!--                                   <div class="footer_contact_text">-->
+<!--                                       <p>Choose your wishlist products then add to cart.</p>-->
+<!--                                   </div>-->
+<!--                               </div>-->
+<!--                                <div class="footer_contact_list">-->
+<!--                                   <div class="footer_contact_icon">-->
+<!--                                       <span>2</span>-->
+<!--                                   </div>-->
+<!--                                   <div class="footer_contact_text">-->
+<!--                                       <p>Call us for more info about our products.</p>-->
+<!--                                   </div>-->
+<!--                               </div>-->
+<!--                                <div class="footer_contact_list">-->
+<!--                                   <div class="footer_contact_icon">-->
+<!--                                       <span>3</span>-->
+<!--                                   </div>-->
+<!--                                   <div class="footer_contact_text">-->
+<!--                                       <p>Pay by creadit card.</p>-->
+<!--                                   </div>-->
+<!--                               </div>-->
+<!--                                <div class="footer_contact_list">-->
+<!--                                   <div class="footer_contact_icon">-->
+<!--                                       <span>4</span>-->
+<!--                                   </div>-->
+<!--                                   <div class="footer_contact_text">-->
+<!--                                       <p>We will send this product in 2 days.</p>-->
+<!--                                   </div>-->
+<!--                               </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div> -->
+<!--                    <div class="col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="footer_list">-->
+<!--                            <div class="footer_list_title">-->
+<!--                                <h3>contact us</h3>-->
+<!--                            </div>-->
+<!--                           <div class="footer_contact">-->
+<!--                               <div class="footer_contact_list">-->
+<!--                                   <div class="footer_contact_icon">-->
+<!--                                       <span><i class="fa fa-phone"></i></span>-->
+<!--                                   </div>-->
+<!--                                   <div class="footer_contact_text">-->
+<!--                                       <p>Call Us <a href="tel:+001666951">+001 666 951</a></p>-->
+<!--                                       <p>Fax <a href="tel:+001678987"> +001 678 987</a></p>-->
+<!--                                   </div>-->
+<!--                               </div>-->
+<!--                               <div class="footer_contact_list">-->
+<!--                                   <div class="footer_contact_icon">-->
+<!--                                       <span><i class="fa fa-mobile"></i></span>-->
+<!--                                   </div>-->
+<!--                                   <div class="footer_contact_text">-->
+<!--                                       <p><a href="tel:+771231234">+77 123 1234</a></p>-->
+<!--                                       <p><a href="tel:+42989876"> +42 98 9876</a></p>-->
+<!--                                   </div>-->
+<!--                               </div>-->
+<!--                               <div class="footer_contact_list">-->
+<!--                                   <div class="footer_contact_icon">-->
+<!--                                       <span><i class="fa fa-envelope"></i></span>-->
+<!--                                   </div>-->
+<!--                                   <div class="footer_contact_text">-->
+<!--                                       <p><a href="mailto:http://1.envato.market/9LbxW">has@posthemes.com</a></p>-->
+<!--                                       <p><a href="mailto:http://1.envato.market/9LbxW">has@posthemes.com</a></p>-->
+<!--                                   </div>-->
+<!--                               </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>  -->
+<!--                 </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="footer_social_newsletter">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-lg-5 col-md-4">-->
+<!--                        <div class="footer_social">-->
+<!--                            <ul>-->
+<!--                                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-google"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-behance"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-7 col-md-8">-->
+<!--                        <div class="newsletter_area">-->
+<!--                            <div class="newsletter_text">-->
+<!--                               <h2>Newsletter</h2>-->
+<!--                            </div>-->
+<!--                            <div class="subscribe_form">-->
+<!--                                <form id="mc-form" class="mc-form footer-newsletter" >-->
+<!--                                    <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your e-mail" />-->
+<!--                                    <button id="mc-submit">Subscribe</button>-->
+<!--                                </form>-->
+<!--                                &lt;!&ndash; mailchimp-alerts Start &ndash;&gt;-->
+<!--                                <div class="mailchimp-alerts text-centre">-->
+<!--                                    <div class="mailchimp-submitting"></div>&lt;!&ndash; mailchimp-submitting end &ndash;&gt;-->
+<!--                                    <div class="mailchimp-success"></div>&lt;!&ndash; mailchimp-success end &ndash;&gt;-->
+<!--                                    <div class="mailchimp-error"></div>&lt;!&ndash; mailchimp-error end &ndash;&gt;-->
+<!--                                </div>&lt;!&ndash; mailchimp-alerts end &ndash;&gt;-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="footer_middle">-->
+<!--            <div class="container">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="footer_list">-->
+<!--                            <div class="footer_list_title">-->
+<!--                                <h3>Categories</h3>-->
+<!--                            </div>-->
+<!--                            <div class="footer_list_menu">-->
+<!--                                <ul>-->
+<!--                                    <li><a href="#">T-Shirts & Top</a></li>-->
+<!--                                    <li><a href="#">Dress & Skirt</a></li>-->
+<!--                                    <li><a href="#">Denim</a></li>-->
+<!--                                    <li><a href="#">Menwear</a></li>-->
+<!--                                    <li><a href="#">Accessories</a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="footer_list">-->
+<!--                            <div class="footer_list_title">-->
+<!--                                <h3>Information</h3>-->
+<!--                            </div>-->
+<!--                            <div class="footer_list_menu">-->
+<!--                                <ul>-->
+<!--                                    <li><a href="#">Specials</a></li>-->
+<!--                                    <li><a href="#">New products</a></li>-->
+<!--                                    <li><a href="#">Best sellers</a></li>-->
+<!--                                    <li><a href="#">Our stores</a></li>-->
+<!--                                    <li><a href="contact.html">Contact us</a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="footer_list">-->
+<!--                            <div class="footer_list_title">-->
+<!--                                <h3>My account</h3>-->
+<!--                            </div>-->
+<!--                            <div class="footer_list_menu">-->
+<!--                                <ul>-->
+<!--                                    <li><a href="#">My orders</a></li>-->
+<!--                                    <li><a href="#">My credit slips</a></li>-->
+<!--                                    <li><a href="#">My addresses</a></li>-->
+<!--                                    <li><a href="#">My personal info</a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-3 col-md-4 col-sm-6">-->
+<!--                        <div class="footer_list">-->
+<!--                            <div class="footer_list_title">-->
+<!--                                <h3>Extra</h3>-->
+<!--                            </div>-->
+<!--                            <div class="footer_list_menu">-->
+<!--                                <ul>-->
+<!--                                    <li><a href="#"> Specials </a></li>-->
+<!--                                    <li><a href="#"> New products </a></li>-->
+<!--                                    <li><a href="#">Best sellers</a></li>-->
+<!--                                    <li><a href="#">Our stores</a></li>-->
+<!--                                    <li><a href="contact.html"> Site Map </a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="footer_bottom"> -->
+<!--            <div class="container"> -->
+<!--                <div class="row align-items-center">-->
+<!--                    <div class="col-lg-6 col-md-7">-->
+<!--                        <div class="copyright_area">-->
+<!--                            <p>Copyright  © 2020  <a href="index.html">Classico</a>.  <a href="https://hasthemes.com/" target="_blank">All rights reserved.</a></p>-->
+<!--                        </div>-->
+<!--                    </div> -->
+<!--                    <div class="col-lg-6 col-md-5">-->
+<!--                       <div class="footer_paypal text-right">-->
+<!--                            <a href="#"><img src="assets/img/icon/payment.png" alt=""></a>	-->
+<!--                       </div>-->
+<!--                    </div>    -->
+<!--                </div>   -->
+<!--            </div>  -->
+<!--        </div>    -->
+    </footer>
+    <!--footer area end-->
+
+<!-- JS
+============================================ -->
+<!--jquery min js-->
+<script src="http://cdn.sucai8.cn/cdn/jquery/jquery-1.10.2.js"></script>
+<!--popper min js-->
+<script src="assets/js/popper.js"></script>
+<!--bootstrap min js-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--owl carousel min js-->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--slick min js-->
+<script src="assets/js/slick.min.js"></script>
+<!--magnific popup min js-->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!--jquery countdown min js-->
+<script src="assets/js/jquery.countdown.js"></script>
+<!--jquery ui min js-->
+<script src="http://cdn.sucai8.cn/cdn/jquery/jquery-ui-1.11.0.js"></script>
+<!--jquery elevatezoom min js-->
+<script src="assets/js/jquery.elevatezoom.js"></script>
+<!--isotope packaged min js-->
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+        <!--    controller-->
+        <script src="javascripts/order-controller.js"></script>
+
+
+</body>
+
+</html>
